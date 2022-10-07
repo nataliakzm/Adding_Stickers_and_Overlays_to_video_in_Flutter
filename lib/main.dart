@@ -62,15 +62,26 @@ class _VideoAppState extends State<VideoApp> {
                                   child: Align(
                                       alignment: Alignment.center,
 
-                                      /// Integrate Overlay to a video
+                                      /// Integrate Image overlay into a video
+                                      child:
+                                          Image.asset('assets/sticker.png')))),
+
+                          // Repeat the same structure for instering a textual watermark
+                          Positioned(
+                              top: 5,
+                              right: 10,
+                              child: Container(
+                                  width: 80,
+                                  height: 40,
+                                  child: Align(
+                                      alignment: Alignment.center,
+
+                                      /// Put some text overlay into a video
                                       child: Text("IMG.LY",
                                           style: TextStyle(
-                                              color: Colors.black,
-                                              fontSize: 20)))))
-
-                          /// Integrate Sticker/Image to a video asset
-                          //child:
-                          //Image.asset('assets/sticker.png'))))
+                                              color: Colors.white,
+                                              fontSize: 20,
+                                              fontWeight: FontWeight.bold))))),
                         ]))
 
                     /// If there is no video, a blank page will be return
