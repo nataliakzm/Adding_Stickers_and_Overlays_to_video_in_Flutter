@@ -1,4 +1,4 @@
-You can find the original article on [IMG.LY](https://img.ly/blog)
+You can find the original article on [IMG.LY](https://img.ly/blog/how-to-add-stickers-and-overlays-to-a-video-in-flutter/)
 
 ## Getting Started
 
